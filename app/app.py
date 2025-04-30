@@ -5,7 +5,6 @@ from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
 from database import SessionLocal, engine
 from models import Base
 from service import AuthService
-from utils import get_current_user
 from database import get_db
 from schemas import UserCreate, UserLogin
 
